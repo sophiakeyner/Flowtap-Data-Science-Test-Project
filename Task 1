@@ -1,0 +1,14 @@
+# 1 - girl
+# 2 - boy
+list = []
+import random
+for x in range(100): #we imagine we have 10 families 
+    child1 = random.randint(1,2)
+    list.append(child1)
+    if child1 == 1:
+        child2 = random.randint(1,2)
+        list.append(child2)
+        if child2 ==1:
+            child3 = random.randint(1,2)
+            list.append(child3)
+print (list)
